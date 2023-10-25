@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .1 {
+            background-color: gray;
+            color: #FFF;
+        }
+        .2 {
+            background-color: white;
+            color: #000;
+        }
+        ul li:nth-child(3):hover{
+            cursor: pointer;
+        }
+        ul li:nth-child(5):hover{
+            cursor: pointer;
+        }
+        ul li:nth-child(4):hover{
+            cursor: pointer;
+            background-color: lightblue
+        }
+    </style>
 </head>
 <body>
     <h1>Сьогодення Гояна Олекасандра Васильовича</h1>
     <a href="index.html">Назад на головну</a>
     <h2>Мій типовий список покупок</h2>
     <ul>
-        <li<h2>>Молочні пролукти</h2></li>
+        <li class="1"<h2>>Молочні пролукти</h2></li>
         <li><ul>
-            <li>Молоко</li>
-            <li>Сир</li>
-            <li>Масло</li>
+            <li class="2">Молоко</li>
+            <li class="1">Сир</li>
+            <li class="2">Масло</li>
         </ul></li>
-        <li><h2>Випічка</h2></li>
+        <li><h2 class="1">Випічка</h2></li>
         <li><ul>
-            <li>Кроусани</li>
-            <li>Булочки</li>
-            <li>Хліб</li>
+            <li class="2">Кроусани</li>
+            <li class="1">Булочки</li>
+            <li class="2">Хліб</li>
         </ul></li>
-        <li><h2>Мясна продукція</h2></li>
+        <li><h2 class="1">Мясна продукція</h2></li>
         <li><ul>
-            <li>Свинина</li>
-            <li>Бекон</li>
-            <li>Яловичина</li>
+            <li class="2">Свинина</li>
+            <li class="1">Бекон</li>
+            <li class="2">Яловичина</li>
         </ul></li>
         <br>
     <h2>Мій улюблений десерт</h2>
