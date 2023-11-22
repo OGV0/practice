@@ -1,0 +1,61 @@
+        .button {
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            margin: 5px;
+        }
+        .button:hover {
+            background-color: magenta;
+            color: yellow;
+        }
+        .button:active {
+            background-color: yellow;
+            color: black;
+        }
+        p {
+            background-color: aqua;
+            color: blueviolet;
+        }
+        #sect2{
+            background-color: azure;
+            color: brown;
+        }
+            
+        #sect3{
+            background-color: tomato;
+            color: cyan;
+        }
+        #sect4{
+            background-color: yellow;
+            color: darkred;
+        }
+        #sect5{
+            background-color: chartreuse;
+            color: red;
+        }
+        h1 {
+            text-align: center;
+            font-size: 22px;
+        }
+        a{
+            font-style: italic;
+        }
+        #zmist {
+            align-items: center;
+        }
+        #sect1,#sect2,#sect3,#sect4,#sect5{
+            font-size: 120%;
+        }
+        #sect1 h2,#sect2 h2,#sect3 h2,#sect4 h2,#sect5 h2{
+            font-size: 144%;
+        }
+        a[href="#zmist"]{
+            font-weight: bold;
+        }
+        a[href="zmist"]{
+            text-transform: uppercase;
+        }
+
