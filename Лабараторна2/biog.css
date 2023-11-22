@@ -59,3 +59,33 @@
             text-transform: uppercase;
         }
 
+
+        div{
+            border: 1px;
+            border-color: black;
+        }
+
+    @media (min-width: 992px){
+
+        .section {
+            display: inline-block;
+            width: calc(50% - 40px);
+            margin: 10px;
+        }
+    }
+    @media (min-width: 769px) and (max-width: 992px){
+        .section {
+            width: calc(50% - 40px);
+            margin: 10px;
+        }
+    }
+    @media(max-width: 769px){
+        .section {
+            width: calc(100% - 40px);
+            margin: 10px;
+        }
+    }
+
+
+
+
