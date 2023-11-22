@@ -25,9 +25,13 @@ a:visited {
    @media screen and (min-width: 601px) and (max-width: 960px) {
     .flex-container {
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      flex-wrap: wrap;
     }
+      .flex-container a{
+         width:50%;
+      }
+    
    }
 
    @media screen and (min-width: 961px) {
@@ -35,4 +39,9 @@ a:visited {
      display: flex;
      flex-direction: row;
     }
+      .flex-container a{
+         margin-left:150px;
+         margin-top:20px;
+      }
+    
    }
