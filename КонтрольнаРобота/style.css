@@ -62,7 +62,7 @@ th { background-color: #f2f2f2; } td { vertical-align: middle; }
     .container{
         flex-direction: row;
     }
-    .block1,.block2,.block3, { 
+    .block1,.block2,.block3 { 
         width: 33%; 
      } 
      .block4{
