@@ -20,6 +20,15 @@
 .block1,.block1-title ,.block2,.block2-title,.block3,.block3-title,.block4,.block4-title{
     font-size: 120%;
 }
+.style1{
+    font-family: "Roboto";
+}
+.s2{
+    font-family: "Lato";
+}
+.text{
+    font-family: "Open Sans";
+}
 table {
      width: 100%; border-collapse: collapse; 
     } 
