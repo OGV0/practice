@@ -20,11 +20,16 @@
 .block1,.block1-title ,.block2,.block2-title,.block3,.block3-title,.block4,.block4-title{
     font-size: 120%;
 }
-table { width: 100%; border-collapse: collapse; } 
-table, th, td { border: 1px solid black; padding: 8px; text-align: left; } 
-th { background-color: #f2f2f2; } td { vertical-align: middle; } img { width: 320px; height: 240px; }
+table {
+     width: 100%; border-collapse: collapse; 
+    } 
+table, th, td {
+     border: 1px solid black;
+      padding: 8px; 
+      text-align: left; } 
+th { background-color: #f2f2f2; } td { vertical-align: middle; }
 
-/*
+
 .container { display: flex; flex-wrap: wrap; } 
 .block { 
     box-sizing: border-box; border: 1px solid #ccc; margin: 5px;  
@@ -40,4 +45,4 @@ th { background-color: #f2f2f2; } td { vertical-align: middle; } img { width: 32
 } 
 @media (min-width: 1201px) {
      .block { width: calc(25% - 10px);
-      } }*/
+      } }
